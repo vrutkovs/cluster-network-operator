@@ -148,7 +148,7 @@ spec:
         resources:
           requests:
             cpu: 10m
-            memory: 100Mi
+            memory: 20Mi
         terminationMessagePolicy: FallbackToLogsOnError
       containers:
       # ovs-monitor-ipsec and libreswan daemons
@@ -234,7 +234,7 @@ spec:
         resources:
           requests:
             cpu: 10m
-            memory: 100Mi
+            memory: 20Mi
         terminationMessagePolicy: FallbackToLogsOnError
         readinessProbe:
           exec:

@@ -124,7 +124,7 @@ spec:
         resources:
           requests:
             cpu: 10m
-            memory: 300Mi
+            memory: 20Mi
       - name: ovn-acl-logging
         image: "{{.OvnImage}}"
         command:
@@ -456,7 +456,7 @@ spec:
         resources:
           requests:
             cpu: 10m
-            memory: 300Mi
+            memory: 20Mi
         lifecycle:
           preStop:
             exec:
